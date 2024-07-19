@@ -1,5 +1,7 @@
 # K8s_HPA
 
+![image](https://github.com/user-attachments/assets/cc11ea61-d5d9-4a7f-95fa-032d63464cd9)
+
 ![image](https://github.com/user-attachments/assets/bb9993b0-7bc9-44ae-a8b9-6322a7259d13)
 
 `kind create cluster --name=pavantest --config=kind-cluster-nodes.yml` 
