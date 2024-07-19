@@ -19,6 +19,10 @@
 
 `kubectl autoscale deployment php-apache --cpu-percent=50 --min=1 --max=10`
 
+OR
+
+`kubectl apply -f hpa.yaml`
+
 `k get hpa`
 
 ![image](https://github.com/user-attachments/assets/7d9f3ff9-31d7-40da-aeb4-766666c6c69f)
