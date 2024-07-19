@@ -23,6 +23,8 @@
 
 ![image](https://github.com/user-attachments/assets/7d9f3ff9-31d7-40da-aeb4-766666c6c69f)
 
+---
+
 ### Simulate the Load test - 
 
 `kubectl run -i --tty load-generator --rm --image=busybox:1.28 --restart=Never -- /bin/sh -c "while sleep 0.01; do wget -q -O- http://php-apache; done"`
@@ -36,6 +38,8 @@
 `k get pods`
 
 ![image](https://github.com/user-attachments/assets/497ebd7e-c0a7-4295-bf1b-d863b6ed1efb)
+
+---
 
 ### Stopping the Load test which decreases the CPU in turn brings down the pods - 
 
